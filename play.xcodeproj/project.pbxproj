@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50055683149A0054005E9526 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 50055681149A0054005E9526 /* play.png */; };
+		50055684149A0054005E9526 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 50055682149A0054005E9526 /* stop.png */; };
+		50055687149A00A0005E9526 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50055686149A00A0005E9526 /* Icon.png */; };
+		50055689149A062D005E9526 /* media_seek_forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 50055688149A062D005E9526 /* media_seek_forward.png */; };
+		50055693149A174F005E9526 /* Backgrounds-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 50055692149A174F005E9526 /* Backgrounds-1.jpeg */; };
+		5005569D149A2DF6005E9526 /* PlusSign.png in Resources */ = {isa = PBXBuildFile; fileRef = 5005569C149A2DF6005E9526 /* PlusSign.png */; };
+		500556A0149A37DD005E9526 /* MusicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5005569F149A37DD005E9526 /* MusicTableViewController.m */; };
+		500556A2149A37F3005E9526 /* MusicTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 500556A1149A37F3005E9526 /* MusicTableView.xib */; };
+		500556A5149A415C005E9526 /* Actions-edit-clear-list-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 500556A3149A415C005E9526 /* Actions-edit-clear-list-icon.png */; };
+		500556A6149A415C005E9526 /* oneseek.png in Resources */ = {isa = PBXBuildFile; fileRef = 500556A4149A415C005E9526 /* oneseek.png */; };
+		503A3663149B2F5000373261 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 503A3662149B2F5000373261 /* left.png */; };
+		50730F6A14994D5A00FF5C3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50730F6914994D5A00FF5C3A /* UIKit.framework */; };
+		50730F6C14994D5A00FF5C3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50730F6B14994D5A00FF5C3A /* Foundation.framework */; };
+		50730F6E14994D5B00FF5C3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50730F6D14994D5A00FF5C3A /* CoreGraphics.framework */; };
+		50730F7414994D5B00FF5C3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50730F7214994D5B00FF5C3A /* InfoPlist.strings */; };
+		50730F7714994D5B00FF5C3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50730F7614994D5B00FF5C3A /* main.m */; };
+		50730F7A14994D5B00FF5C3A /* playAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50730F7914994D5B00FF5C3A /* playAppDelegate.m */; };
+		50730F7D14994D5B00FF5C3A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50730F7B14994D5B00FF5C3A /* MainWindow.xib */; };
+		50730F8014994D5B00FF5C3A /* playViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50730F7F14994D5B00FF5C3A /* playViewController.m */; };
+		50730F8314994D5B00FF5C3A /* playViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50730F8114994D5B00FF5C3A /* playViewController.xib */; };
+		50730F8A14994D6800FF5C3A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50730F8914994D6800FF5C3A /* MediaPlayer.framework */; };
+		50A006D7149B771800FB6E46 /* list-50x50-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 50A006D6149B771800FB6E46 /* list-50x50-2.gif */; };
+		50A3A46214A0768C00695F94 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A3A46114A0768C00695F94 /* lock.png */; };
+		50A3A46D14A07F0100695F94 /* SlideToStop.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A3A46C14A07F0100695F94 /* SlideToStop.png */; };
+		50A3A46F14A0855E00695F94 /* SlideToStopBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A3A46E14A0855E00695F94 /* SlideToStopBar.png */; };
+		50A3A47114A0856300695F94 /* Nothing.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A3A47014A0856300695F94 /* Nothing.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50055681149A0054005E9526 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		50055682149A0054005E9526 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		50055686149A00A0005E9526 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		50055688149A062D005E9526 /* media_seek_forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = media_seek_forward.png; sourceTree = "<group>"; };
+		50055692149A174F005E9526 /* Backgrounds-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Backgrounds-1.jpeg"; sourceTree = "<group>"; };
+		5005569C149A2DF6005E9526 /* PlusSign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlusSign.png; sourceTree = "<group>"; };
+		5005569E149A37DD005E9526 /* MusicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTableViewController.h; sourceTree = "<group>"; };
+		5005569F149A37DD005E9526 /* MusicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTableViewController.m; sourceTree = "<group>"; };
+		500556A1149A37F3005E9526 /* MusicTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicTableView.xib; sourceTree = "<group>"; };
+		500556A3149A415C005E9526 /* Actions-edit-clear-list-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Actions-edit-clear-list-icon.png"; sourceTree = "<group>"; };
+		500556A4149A415C005E9526 /* oneseek.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oneseek.png; sourceTree = "<group>"; };
+		503A3662149B2F5000373261 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		50730F6514994D5A00FF5C3A /* play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = play.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50730F6914994D5A00FF5C3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		50730F6B14994D5A00FF5C3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50730F6D14994D5A00FF5C3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50730F7114994D5B00FF5C3A /* play-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "play-Info.plist"; sourceTree = "<group>"; };
+		50730F7314994D5B00FF5C3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50730F7514994D5B00FF5C3A /* play-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "play-Prefix.pch"; sourceTree = "<group>"; };
+		50730F7614994D5B00FF5C3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50730F7814994D5B00FF5C3A /* playAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = playAppDelegate.h; sourceTree = "<group>"; };
+		50730F7914994D5B00FF5C3A /* playAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = playAppDelegate.m; sourceTree = "<group>"; };
+		50730F7C14994D5B00FF5C3A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		50730F7E14994D5B00FF5C3A /* playViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = playViewController.h; sourceTree = "<group>"; };
+		50730F7F14994D5B00FF5C3A /* playViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = playViewController.m; sourceTree = "<group>"; };
+		50730F8214994D5B00FF5C3A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/playViewController.xib; sourceTree = "<group>"; };
+		50730F8914994D6800FF5C3A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		50A006D6149B771800FB6E46 /* list-50x50-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "list-50x50-2.gif"; sourceTree = "<group>"; };
+		50A3A46114A0768C00695F94 /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
+		50A3A46C14A07F0100695F94 /* SlideToStop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SlideToStop.png; sourceTree = "<group>"; };
+		50A3A46E14A0855E00695F94 /* SlideToStopBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SlideToStopBar.png; sourceTree = "<group>"; };
+		50A3A47014A0856300695F94 /* Nothing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nothing.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50730F6214994D5A00FF5C3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50730F8A14994D6800FF5C3A /* MediaPlayer.framework in Frameworks */,
+				50730F6A14994D5A00FF5C3A /* UIKit.framework in Frameworks */,
+				50730F6C14994D5A00FF5C3A /* Foundation.framework in Frameworks */,
+				50730F6E14994D5B00FF5C3A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		503A365E149B2E8E00373261 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				50730F7814994D5B00FF5C3A /* playAppDelegate.h */,
+				50730F7914994D5B00FF5C3A /* playAppDelegate.m */,
+				50730F7E14994D5B00FF5C3A /* playViewController.h */,
+				50730F7F14994D5B00FF5C3A /* playViewController.m */,
+				5005569E149A37DD005E9526 /* MusicTableViewController.h */,
+				5005569F149A37DD005E9526 /* MusicTableViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		503A3660149B2E9100373261 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				503A3661149B2EA000373261 /* Images */,
+				50730F7B14994D5B00FF5C3A /* MainWindow.xib */,
+				50730F8114994D5B00FF5C3A /* playViewController.xib */,
+				500556A1149A37F3005E9526 /* MusicTableView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		503A3661149B2EA000373261 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				50A3A47014A0856300695F94 /* Nothing.png */,
+				50A3A46E14A0855E00695F94 /* SlideToStopBar.png */,
+				50A3A46C14A07F0100695F94 /* SlideToStop.png */,
+				50A3A46114A0768C00695F94 /* lock.png */,
+				5005569C149A2DF6005E9526 /* PlusSign.png */,
+				50055688149A062D005E9526 /* media_seek_forward.png */,
+				50055681149A0054005E9526 /* play.png */,
+				50055682149A0054005E9526 /* stop.png */,
+				50055692149A174F005E9526 /* Backgrounds-1.jpeg */,
+				500556A3149A415C005E9526 /* Actions-edit-clear-list-icon.png */,
+				503A3662149B2F5000373261 /* left.png */,
+				50A006D6149B771800FB6E46 /* list-50x50-2.gif */,
+				500556A4149A415C005E9526 /* oneseek.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		50730F5A14994D5A00FF5C3A = {
+			isa = PBXGroup;
+			children = (
+				50055686149A00A0005E9526 /* Icon.png */,
+				50730F6F14994D5B00FF5C3A /* play */,
+				50730F6814994D5A00FF5C3A /* Frameworks */,
+				50730F6614994D5A00FF5C3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50730F6614994D5A00FF5C3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50730F6514994D5A00FF5C3A /* play.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50730F6814994D5A00FF5C3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50730F8914994D6800FF5C3A /* MediaPlayer.framework */,
+				50730F6914994D5A00FF5C3A /* UIKit.framework */,
+				50730F6B14994D5A00FF5C3A /* Foundation.framework */,
+				50730F6D14994D5A00FF5C3A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50730F6F14994D5B00FF5C3A /* play */ = {
+			isa = PBXGroup;
+			children = (
+				503A3660149B2E9100373261 /* Resources */,
+				503A365E149B2E8E00373261 /* Classes */,
+				50730F7014994D5B00FF5C3A /* Supporting Files */,
+			);
+			path = play;
+			sourceTree = "<group>";
+		};
+		50730F7014994D5B00FF5C3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50730F7114994D5B00FF5C3A /* play-Info.plist */,
+				50730F7214994D5B00FF5C3A /* InfoPlist.strings */,
+				50730F7514994D5B00FF5C3A /* play-Prefix.pch */,
+				50730F7614994D5B00FF5C3A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50730F6414994D5A00FF5C3A /* play */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50730F8614994D5B00FF5C3A /* Build configuration list for PBXNativeTarget "play" */;
+			buildPhases = (
+				50730F6114994D5A00FF5C3A /* Sources */,
+				50730F6214994D5A00FF5C3A /* Frameworks */,
+				50730F6314994D5A00FF5C3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = play;
+			productName = play;
+			productReference = 50730F6514994D5A00FF5C3A /* play.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50730F5C14994D5A00FF5C3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Hermitage Medical Clinic";
+			};
+			buildConfigurationList = 50730F5F14994D5A00FF5C3A /* Build configuration list for PBXProject "play" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50730F5A14994D5A00FF5C3A;
+			productRefGroup = 50730F6614994D5A00FF5C3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50730F6414994D5A00FF5C3A /* play */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50730F6314994D5A00FF5C3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50730F7414994D5B00FF5C3A /* InfoPlist.strings in Resources */,
+				50730F7D14994D5B00FF5C3A /* MainWindow.xib in Resources */,
+				50730F8314994D5B00FF5C3A /* playViewController.xib in Resources */,
+				50055683149A0054005E9526 /* play.png in Resources */,
+				50055684149A0054005E9526 /* stop.png in Resources */,
+				50055687149A00A0005E9526 /* Icon.png in Resources */,
+				50055689149A062D005E9526 /* media_seek_forward.png in Resources */,
+				50055693149A174F005E9526 /* Backgrounds-1.jpeg in Resources */,
+				5005569D149A2DF6005E9526 /* PlusSign.png in Resources */,
+				500556A2149A37F3005E9526 /* MusicTableView.xib in Resources */,
+				500556A5149A415C005E9526 /* Actions-edit-clear-list-icon.png in Resources */,
+				500556A6149A415C005E9526 /* oneseek.png in Resources */,
+				503A3663149B2F5000373261 /* left.png in Resources */,
+				50A006D7149B771800FB6E46 /* list-50x50-2.gif in Resources */,
+				50A3A46214A0768C00695F94 /* lock.png in Resources */,
+				50A3A46D14A07F0100695F94 /* SlideToStop.png in Resources */,
+				50A3A46F14A0855E00695F94 /* SlideToStopBar.png in Resources */,
+				50A3A47114A0856300695F94 /* Nothing.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50730F6114994D5A00FF5C3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50730F7714994D5B00FF5C3A /* main.m in Sources */,
+				50730F7A14994D5B00FF5C3A /* playAppDelegate.m in Sources */,
+				50730F8014994D5B00FF5C3A /* playViewController.m in Sources */,
+				500556A0149A37DD005E9526 /* MusicTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50730F7214994D5B00FF5C3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50730F7314994D5B00FF5C3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		50730F7B14994D5B00FF5C3A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50730F7C14994D5B00FF5C3A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		50730F8114994D5B00FF5C3A /* playViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50730F8214994D5B00FF5C3A /* en */,
+			);
+			name = playViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50730F8414994D5B00FF5C3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dave Albert (K5EYJ7X9SC)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "493FF500-088E-4049-B9FF-012920F4B36E";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50730F8514994D5B00FF5C3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dave Albert (K5EYJ7X9SC)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "493FF500-088E-4049-B9FF-012920F4B36E";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		50730F8714994D5B00FF5C3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dave Albert (K5EYJ7X9SC)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "play/play-Prefix.pch";
+				INFOPLIST_FILE = "play/play-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "493FF500-088E-4049-B9FF-012920F4B36E";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50730F8814994D5B00FF5C3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dave Albert (K5EYJ7X9SC)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "play/play-Prefix.pch";
+				INFOPLIST_FILE = "play/play-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "493FF500-088E-4049-B9FF-012920F4B36E";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50730F5F14994D5A00FF5C3A /* Build configuration list for PBXProject "play" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50730F8414994D5B00FF5C3A /* Debug */,
+				50730F8514994D5B00FF5C3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50730F8614994D5B00FF5C3A /* Build configuration list for PBXNativeTarget "play" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50730F8714994D5B00FF5C3A /* Debug */,
+				50730F8814994D5B00FF5C3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50730F5C14994D5A00FF5C3A /* Project object */;
+}
