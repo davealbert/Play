@@ -205,6 +205,7 @@
 		50730F5C14994D5A00FF5C3A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "Hermitage Medical Clinic";
 			};
 			buildConfigurationList = 50730F5F14994D5A00FF5C3A /* Build configuration list for PBXProject "play" */;
@@ -298,7 +299,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dave Albert (K5EYJ7X9SC)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dave Albert (K5EYJ7X9SC)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -308,8 +309,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "493FF500-088E-4049-B9FF-012920F4B36E";
+				PROVISIONING_PROFILE = "713A6BAE-8C80-4816-A4D2-432FAB30EFD4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "713A6BAE-8C80-4816-A4D2-432FAB30EFD4";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -318,7 +319,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dave Albert (K5EYJ7X9SC)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dave Albert (K5EYJ7X9SC)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
@@ -326,8 +327,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "493FF500-088E-4049-B9FF-012920F4B36E";
+				PROVISIONING_PROFILE = "713A6BAE-8C80-4816-A4D2-432FAB30EFD4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "713A6BAE-8C80-4816-A4D2-432FAB30EFD4";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -336,16 +337,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dave Albert (K5EYJ7X9SC)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dave Albert (K5EYJ7X9SC)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "play/play-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "play/play-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "493FF500-088E-4049-B9FF-012920F4B36E";
+				PROVISIONING_PROFILE = "713A6BAE-8C80-4816-A4D2-432FAB30EFD4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "713A6BAE-8C80-4816-A4D2-432FAB30EFD4";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -354,15 +356,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dave Albert (K5EYJ7X9SC)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dave Albert (K5EYJ7X9SC)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "play/play-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "play/play-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "493FF500-088E-4049-B9FF-012920F4B36E";
+				PROVISIONING_PROFILE = "713A6BAE-8C80-4816-A4D2-432FAB30EFD4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "713A6BAE-8C80-4816-A4D2-432FAB30EFD4";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};

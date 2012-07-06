@@ -1,0 +1,11 @@
+Old project that I am bringing back to life
+
+Most of the code is pretty bad at the moment, one step at a time.
+
+
+iPod replacement.
+
+The track scrubber doesn't work well for me on long tracks, so I have 
+created a music player that lets you seek by numeric time or slider.
+
+
